@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Contact</title>
+</head>
+<body>
+    <div class="modal" id="modal">
+        <h3>Add New Contact</h3>
+        <form>
+          <p>Full Name</p>
+          <input type="text" name="" id="contact-name" required />
+          <p>Title</p>
+          <input
+            type="text"
+            name=""
+            id="contact-title" placeholder="optional"
+          />
+          <p>Email</p>
+          <input type="email" name="" id="contact-email" required />
+          <p>Phone</p>
+          <input type="number" id="contact-phone" /><br>
+          <input type="hidden" id="hiden-input" />
+          <br />
+          <button id="save-btn">Save</button>
+          <button id="cancel-btn"><a href="index.html">Cancel</a> </button>
+        </form>
+      </div>
+
+      <script src="addcontact.js"></script>
+</body>
+</html>
